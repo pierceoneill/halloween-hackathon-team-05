@@ -15,7 +15,9 @@ html {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
-
+p{
+  color: white;
+}
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -46,15 +48,16 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #9c0e1a !important;
-}
+  background-color: #ffb34a}
 
 .bg-dark {
   background-color: #35c0bd !important;
 }
 
 .text-faded {
-  color: #ffb34a;
+  color: #ffffff;
+  background:rgb(136,136,1360);
+  
 }
 
 section {
@@ -234,6 +237,7 @@ header.masthead p {
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  color: #ffb34a;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -244,7 +248,7 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #001f34;
+  color: #ffb34a;
   background: #ffb34a;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -257,6 +261,7 @@ header.masthead p {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   text-align: center;
+  color: #ffb34a;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
