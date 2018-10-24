@@ -329,3 +329,26 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+.fa-facebook {
+  color: orange;
+}
+
+.fa-twitter-square {
+  color: orange;
+}
+
+.fa-instagram {
+  color: orange;
+}
+.fa-youtube {
+  color: orange;
+}
+
+.fa-envelope {
+  color: orange;
+}
+
+.fa-phone {
+  color: orange;
+}
