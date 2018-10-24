@@ -1,0 +1,23 @@
+
+body{
+    background-color: #001f34;
+    color: #e9fff6;
+}
+
+
+.font1{
+    font-family: 'Bangers', cursive;
+}
+
+.font2{
+    font-family: 'Sigmar One', cursive;
+}
+
+h2{
+    color: orange;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+}
