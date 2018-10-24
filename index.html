@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <img src="/img/grim-monster.png" width="" height="150" alt="">
-        <a class="navbar-brand js-scroll-trigger"  href="#page-top">Grim Monster</a>
+        <a class="navbar-brand js-scroll-trigger text-dark"  href="#page-top">Grim Monster</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -103,28 +103,28 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-pumpkin text-primary mb-3 sr-icon-1"></i>
+              <i class="fas fa-skull-crossbones fa-4x text-primary mb-3 sr-icon-1"></i>
               <h3 class="mb-3">Family friendly</h3>
               <p>A fun day for the whole family.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
+              <i class="fab fa-snapchat-ghost fa-4x text-primary mb-3 sr-icon-2"></i>
               <h3 class="mb-3">Handmade costume</h3>
               <p>I create my own costumes and props</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
+              <i class="fas fa-4x fas fa-spider text-primary mb-3 sr-icon-3"></i>
               <h3 class="mb-3">Different themes</h3>
               <p>A selection of themes and stories to pick from.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
+              <i class="fas fa-4x fas fa-hat-wizard text-primary mb-3 sr-icon-4"></i>
               <h3 class="mb-3">Video of the event</h3>
               <p>A video for you free of charge of the event!</p>
             </div>
@@ -144,7 +144,7 @@
                   <div class="project-category text-faded">
                     Parties
                   </div>
-                  <div class="project-name">
+                  <div class="project-name text-dark">
                     Halloween Parties
                   </div>
                 </div>
@@ -159,7 +159,7 @@
                   <div class="project-category text-faded">
                     Events
                   </div>
-                  <div class="project-name">
+                  <div class="project-name text-dark">
                     He Can Come to Your Work Event
                   </div>
                 </div>
@@ -174,7 +174,7 @@
                   <div class="project-category text-faded">
                     Spooky Disco
                   </div>
-                  <div class="project-name">
+                  <div class="project-name text-dark">
                     Spooky Disco for Young and Old!
                   </div>
                 </div>
@@ -189,7 +189,7 @@
                   <div class="project-category text-faded">
                     Weddings
                   </div>
-                  <div class="project-name">
+                  <div class="project-name text-dark">
                     Because.... WHY NOT?!?!
                   </div>
                 </div>
@@ -204,7 +204,7 @@
                   <div class="project-category text-faded">
                     Birthday Parties
                   </div>
-                  <div class="project-name">
+                  <div class="project-name text-dark">
                     Fed up of clowns??? Give your childs birthday party a unique feel with a touch of death!
                   </div>
                 </div>
@@ -219,7 +219,7 @@
                   <div class="project-category text-faded">
                    Funerals
                   </div>
-                  <div class="project-name">
+                  <div class="project-name text-dark">
                     Add a touch of class to your loved ones Funeral
                   </div>
                 </div>
@@ -232,7 +232,8 @@
     
 <!--- Emoji Section -->
 <section>
-<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+<button class="fun"  data-toggle="collapse" data-target="#emoji">click for fun</button>
+
   <div id="emoji" class="collapse">
   	<div class="container-fluid padding">
   		<div class="row text-center">
@@ -250,6 +251,7 @@
   			</div>
   		</div>
   	</div>
+  </div>
   </div>
   </section>
 
@@ -333,7 +335,7 @@
           <div class="col-lg-4 mr-auto text-center">
             <a href = "/contactForm.html" target = "_blank"><i  class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i></a>
             <p>
-              <a href="">feedback@startbootstrap.com</a>
+              <a href="">grimmonster@hotmail.com</a>
             </p>
           </div>
         </div>
@@ -369,7 +371,7 @@
   <div class="form-group">
   
   </div>
-  <button type="submit" class="btn btn-primary">Book a Grim Monster</button>
+  <button id="btn" class="btn btn-primary">Book a Grim Monster</button>
 </form>
 <div class = "icon">
 <i class="fab fa-facebook fa-3x"></i>
@@ -380,13 +382,7 @@
   
   </div>
   
-<script type="text/javascript" src="">$(document).ready(function() {
-    var text = "<h1>Great!!! You just book Grim Monster, be prepare ...</h1>";
-    $("button").click( function () {
-        $("form").empty();
-      $("form").append(text);  
-    });
-});</script>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -398,7 +394,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-   
+   <script>
+  
+  $(document).ready(function() {
+    var text = "<h1>Great!!! You just book Grim Monster, be prepare ...</h1>";
+    $("#btn").click( function () {
+      $("form").empty();
+      $("form").append(text);  
+    });
+});
+</script>
   </body>
 
 </html>
